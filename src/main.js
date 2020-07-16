@@ -1,3 +1,16 @@
+/**
+ * A special function that runs when the spreadsheet is first
+ * opened or reloaded. onOpen() is used to add custom menu
+ * items to the spreadsheet.
+ */
+function onOpen() {
+  var ui = SpreadsheetApp.getUi();
+  
+  ui.createMenu('Finance')
+    .addItem('Consolidate', 'ConsolidateCurrentMonth')
+    .addToUi();
+}
+
 const CONSOLIDATION_SHEET = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("CONSOLIDAÇÃO");
 
 const ConsolidateCurrentMonth = () => {
