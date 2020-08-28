@@ -1,0 +1,22 @@
+{
+  "name": "familyfinance",
+  "version": "1.0.0",
+  "description": "A simple google app script ",
+
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielbressani/FamilyFinance.git"
+  },
+  "author": "Gabriel Bressani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielbressani/FamilyFinance/issues"
+  },
+  "homepage": "https://github.com/gabrielbressani/FamilyFinance#readme",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
